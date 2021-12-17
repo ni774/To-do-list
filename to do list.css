@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+.container{
+    background-color:rgba(60, 63, 60, 0.5);
+    height: 39vw;
+     width: 40vw; 
+
+}
+#heading{
+    font-size: 5vw;
+    padding: 0rem;
+    margin: 1rem auto;
+    position: relative;
+    left: 5rem;
+}
+#inputfield{
+    width: 25vw;
+    height: 3vw;
+    border: 1px solid black;
+    border-color: brown;
+    vertical-align: middle;
+    border-color: brown;
+position: relative;
+left: 6.5vw;
+border-radius: 9px;
+transition: width 0.5s, height 0.5s, transform 0.5s;
+
+}
+#inputfield:hover{
+    transform: scale(1.2);
+
+}
+#add_Todobtn{
+    height: 2.3vw;
+    width: 4vw;
+    border: -1px solid black;
+    border-radius: 25px;
+    vertical-align: middle;
+    font-size: 1vw;
+    position: relative;
+    left: 6.3vw;
+   
+}
+.to-do{
+    margin-top: 25px;
+}
+.paragraph-styling{
+  cursor: pointer;
+  font-size: 20px;
+  color: blue;
+  background-color: blanchedalmond;
+}
+#main-container{
+    position: relative;
+    right: 7vw;
+}
+
+    
